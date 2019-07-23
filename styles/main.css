@@ -1,0 +1,27 @@
+
+body {
+	background-color: black;
+	text-align: center;
+	color: red;
+}
+ol {
+	font-weight: bold;
+	list-style-position: inside;
+}
+a {
+	text-decoration: none;
+ 	color: black;
+}
+
+#click {
+  border: 2px solid red;
+  border-radius: 15px;
+  background-color: pink;
+}
+.margin_borders{
+	border-style:dashed;
+	border-color:red;
+	margin-top: 100x
+	margin: 20,20,20,20;
+	border:2px solid red;
+}
