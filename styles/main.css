@@ -17,6 +17,7 @@ a {
   border: 2px solid red;
   border-radius: 15px;
   background-color: pink;
+
 }
 .margin_borders{
 	border-style:dashed;
@@ -24,4 +25,50 @@ a {
 	margin-top: 100x
 	margin: 20,20,20,20;
 	border:2px solid red;
+}
+#pic{
+  background-color: lightgrey;
+  border: 5px red;
+  padding: 25px;
+  margin: 10px;
+}
+#about_me{
+	background-color: yellow;
+	border-style:solid;
+	border: 2px red;
+	border-radius: 15px;
+}
+
+#my_img_float_left{
+	float: left;
+	margin: 10px;
+	border: ;
+	padding: 10px;
+	width:450px;
+}
+
+.random_text{
+	border-style: solid;
+	border: 2px;
+}
+#div_float{
+	background-color: yellow;
+	overflow: auto;
+	border: solid 5px red;
+}
+
+@media only screen and (max-width: 600px) {
+	#my_img_float_left{
+	float: left;
+	margin: 10px;
+	border: ;
+	padding: 10px;
+	width:450px;
+}
+
+#div_float{
+	background-color: white;
+	overflow: auto;
+	border: solid 5px red;
+}
 }
